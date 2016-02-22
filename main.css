@@ -1,0 +1,49 @@
+body {
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #D2FFDA;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+
+nav li{
+	display: inline;
+	font-family: sans-serif;
+	font-size: 22px;
+	padding: 0;
+	margin-right: 30px;
+}
+
+nav {
+	background-color: black;
+}
+
+nav ul {
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+h1 {
+	margin-left: 30px;
+	margin-bottom: 0px;
+	font-size: 50px;
+}
+
+h2 {
+	margin-left: 30px;
+	margin-top: 0px;
+}
+
+p {
+	margin-top: 0px;
+	margin-left: 30px;
+	margin-right: 500px;
+	font-size: 20px;
+}
