@@ -56,6 +56,12 @@ body {
 	padding-bottom: 10px;
 }
 
+.about a {
+	text-decoration: none;
+	font-weight: bold;
+	color: darkblue;
+}
+
 .weather {
 	background: url("weather_background.jpg") no-repeat center center fixed;
 	height: 300px;
