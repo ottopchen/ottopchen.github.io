@@ -1,0 +1,68 @@
+body {
+	background-image: url("background.svg");
+	font-family: sans-serif;
+	text-shadow: 1px 1px black;
+}
+
+
+.header {
+	margin-top: 100px;
+	text-align: center;
+	color: darkorange;
+}
+
+input#location {
+	width: 200px;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 10px;
+	vertical-align: top;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+p#city {
+	font-size: 25px;
+}
+
+p#current {
+	font-size: 30px;
+	color: orange;
+}
+
+svg#rightEnd {
+	vertical-align: top;
+	fill: #D1507F;
+}
+
+svg#rightEnd:hover {
+	fill: #557722;
+}
+
+text#buttonText {
+	fill: #ffffff;
+	font-size: 20px;
+}
+
+.weather p {
+	flex-grow: 1;
+	text-align: center;
+	color: white;
+}
+
+.weather {
+	font-size: 18px;
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	flex-direction: row;
+	flex-grow: 1;
+	background: lightblue;
+}

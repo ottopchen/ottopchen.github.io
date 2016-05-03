@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Weather</title>
+		<link rel="stylesheet" type="text/css" href="weather.css">
+	</head>
+
+	<body>
+		<div class="header" id="header">
+			<h1>What's the weather like in</h1>
+			<input type="text" id="location" placeholder="Location"><svg 
+id="rightEnd" width="80" height="45" onclick="getLocation()">
+<path d="M 0 0 l 50 0 a 25 25 0 0 1 0 50 l -50 0 z" />
+			<text id="buttonText" x="5" y="30" >submit</text>
+			</svg>
+			<img src="yahoo.png" width="70"></img>
+			<p id="city"></p>
+			<p id="current"></p>
+		</div>
+		<div class="weather" id="weather">
+		</div>
+	</body>
+
+
+	<script type="text/javascript" src="weather.js">
+	</script> 
+</html>
