@@ -25,7 +25,9 @@ var callbackFunction = function(data) {
   document.getElementById("current").appendChild(document.createTextNode(current + "\u00b0"));
 
 	var weather = document.getElementById("weather");
+	var a = document.getElementById("current")
 	view.clearChildren(weather);
+	view.clearChildren(a);
 	//document.getElementById("place").innerHTML = data.query.results.channel.location.city + "," + data.query.results.channel.location.region;
 	for (i = 0; i < 5; i++) {
     var forecast = data.query.results.channel.item.forecast[i];
